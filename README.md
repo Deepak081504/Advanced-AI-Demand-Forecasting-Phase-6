@@ -1,91 +1,69 @@
-# Multi-Vendor E-Commerce Platform Backend
+# Advanced AI Demand Forecasting System - Phase 6
 
-## Project Overview
+## Overview
 
-This project is a Multi-Vendor E-Commerce Backend developed using FastAPI and PostgreSQL.
+Phase 6 focuses on building an enterprise-level forecasting platform by introducing organization management, forecast approval workflows, workflow automation, strategic planning, governance management, KPI tracking, data quality monitoring, and executive dashboards.
 
-The system supports three types of users:
+## Features Implemented
 
-- Admin
-- Vendor
-- Customer
+### Multi-Organization Management
+- Create and manage organizations
+- Organization-based user segregation
+- Organization-specific forecasts and reports
 
-The platform allows vendors to manage products, customers to place orders, and administrators to monitor the entire system.
+### Forecast Approval Workflow
+- Submit forecasts for approval
+- Approve or reject forecasts
+- Approval status tracking
+- Approval history maintenance
 
----
+### Workflow Automation
+- Automated forecast generation
+- Automated report generation
+- Event-based notifications
+- Workflow execution logs
 
-## Features
+### Strategic Planning
+- Annual and quarterly planning dashboards
+- Business target tracking
+- Forecast vs target comparison
 
-### Authentication
+### Forecast Governance
+- Forecast version control
+- Modification tracking
+- Approval records management
 
-- User Registration
-- User Login
-- JWT Authentication
-- Password Hashing using Bcrypt
+### KPI Management
+- Custom KPI creation
+- KPI tracking and reporting
+- KPI trend analysis
+- KPI alerts
 
-### Role Management
+### Data Quality Management
+- Data quality scoring
+- Dataset validation
+- Data quality reports
 
-- Admin Role
-- Vendor Role
-- Customer Role
+### Executive Dashboard
+- Organization-wide analytics
+- Forecasting metrics
+- Business performance insights
 
-### Product Management
-
-- Create Product
-- Update Product
-- Delete Product
-- View Products
-
-### Cart Management
-
-- Add to Cart
-- Update Cart
-- Remove from Cart
-- View Cart
-
-### Order Management
-
-- Place Order
-- View Orders
-- Order Status Tracking
-
-### Vendor Features
-
-- Manage Products
-- View Vendor Orders
-- Update Order Status
-
-### Admin Features
-
-- Manage Users
-- Manage Vendors
-- View All Orders
-- Monitor Platform Activity
-
----
+### Notification Center
+- Notification management
+- Role-based notifications
+- Notification history
 
 ## Technology Stack
 
 ### Backend
-
 - FastAPI
-- Python 3.11+
-
-### Database
-
 - PostgreSQL
-
-### Authentication
-
-- JWT Token
-- Passlib Bcrypt
-
-### ORM
-
 - SQLAlchemy
+- Pydantic
 
-### API Documentation
+### Frontend
+- React.js
+- Vite
+- Axios
 
-- Swagger UI
-
----
